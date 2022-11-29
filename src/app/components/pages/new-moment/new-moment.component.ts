@@ -13,4 +13,8 @@ export class NewMomentComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  createHandler(event: any){
+    console.log('foi');
+  }
+
 }
